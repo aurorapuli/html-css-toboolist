@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* stile header */
+header{
+    padding: 10px;
+    height: 30px;
+    background-color: blue;
+}
+.img_logo{
+    width: 30px;
+}
