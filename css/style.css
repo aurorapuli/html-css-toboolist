@@ -15,12 +15,23 @@ body{
 
 /* stile header */
 header{
-    padding: 10px;
-    height: 30px;
+    height: 50px;
     background-color:white;
+  }
+
+ .logo{
+         vertical-align: middle;
+         padding-left: 40px;
     }
+
 .img_logo{
-    width: 30px;
+    width: 34px;
+    padding-top: 10px;
+}
+
+.text_logo{
+ 
+    font-size: 30px;
 }
 
 
@@ -29,10 +40,15 @@ main{
     width: 60%;
     margin: 30px auto;
     background-color: white;
+    border-radius: 1%;
 }
 .container{
-    margin-left: 30px;
+  padding-left: 30px;
+    
 }
+
+
+/* stile prima sezione */
 
 .add_section{
     padding-top: 10px;
@@ -41,12 +57,16 @@ main{
 }
 .add_section button{
     font-size: 10px;
-    padding: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border: 1px solid rgb(36, 137, 200);
     border-radius: 10%;
     background-color:rgb(36, 137, 200) ;
     color: white;
     text-align: center;
+
 }
 
 .add_section input{
@@ -58,3 +78,132 @@ main{
     padding: 2px;
 }
    
+/* stile seconda sezione */
+.list{
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.text_list::before{
+    content:'\2713' ;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+
+}
+
+.text_list{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.text_list_wrong::before{
+    content: '\2717';
+    color: red;
+    border: 1px solid red;
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.text_list_wrong{
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+
+}
+.editorial{
+    color: white;
+    font-size: 10px;
+    background-color:rgb(36, 137, 200)  ;
+    border: 1px solid rgb(36, 137, 200) ;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.q1_goals{
+    color:white;
+    font-size: 10px;
+    background-color:purple ;
+    border: 1px solid purple ;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 4px;
+
+}
+
+.recruiting{
+    color:white;
+    font-size: 10px;
+    background-color:green ;
+    border: 1px solid green ;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 4px;
+
+}
+
+.mobile{
+    color:white;
+    font-size: 10px;
+    background-color:orange ;
+    border: 1px solid orange ;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 4px;
+
+}
+
+.website{
+    color:white;
+    font-size: 10px;
+    background-color:palevioletred ;
+    border: 1px solid palevioletred ;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 4px;
+
+}
+
+.sales{
+    color:white;
+    font-size: 10px;
+    background-color:rgb(135, 135, 16) ;
+    border: 1px solid rgb(135, 135, 16)  ;
+    border-radius: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 4px;
+
+}
+
+
+
