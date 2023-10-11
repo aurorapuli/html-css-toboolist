@@ -15,23 +15,22 @@ body{
 
 /* stile header */
 header{
-    height: 50px;
     background-color:white;
+    line-height: 70px;
+    padding-left: 40px;
+    padding-top: 10px;
   }
 
- .logo{
-         vertical-align: middle;
-         padding-left: 40px;
-    }
 
 .img_logo{
-    width: 34px;
-    padding-top: 10px;
+   line-height: 70px;
+   height: 70px;
+   vertical-align: middle; 
 }
 
 .text_logo{
- 
-    font-size: 30px;
+   font-size: 40px;
+   vertical-align: middle;
 }
 
 
@@ -42,9 +41,9 @@ main{
     background-color: white;
     border-radius: 1%;
 }
+
 .container{
-  padding-left: 30px;
-    
+  padding-left: 30px;   
 }
 
 
@@ -55,6 +54,7 @@ main{
     padding-bottom: 5px;
     border-bottom: 1px solid  rgb(243, 239, 239);
 }
+
 .add_section button{
     font-size: 10px;
     padding-left: 5px;
@@ -66,7 +66,6 @@ main{
     background-color:rgb(36, 137, 200) ;
     color: white;
     text-align: center;
-
 }
 
 .add_section input{
@@ -92,7 +91,6 @@ main{
     border-radius: 50%;
     padding: 2px;
     margin-right: 5px;
-
 }
 
 .text_list{
@@ -157,7 +155,6 @@ main{
     padding-right: 10px;
     text-align: center;
     margin-left: 4px;
-
 }
 
 .mobile{
@@ -172,7 +169,6 @@ main{
     padding-right: 10px;
     text-align: center;
     margin-left: 4px;
-
 }
 
 .website{
@@ -187,7 +183,6 @@ main{
     padding-right: 10px;
     text-align: center;
     margin-left: 4px;
-
 }
 
 .sales{
@@ -202,7 +197,6 @@ main{
     padding-right: 10px;
     text-align: center;
     margin-left: 4px;
-
 }
 
 
